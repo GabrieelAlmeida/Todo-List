@@ -1,7 +1,10 @@
 import { ComponentProps } from "react";
+import { UseFormRegisterReturn } from "react-hook-form";
 
-type InputControlProps = ComponentProps<"input">;
+interface InputControlProps extends ComponentProps<"input"> {
+  fieldRegister: UseFormRegisterReturn;
+}
 
-export function InputControl(props: InputControlProps) {
-  return <input {...props} />;
+export function InputControl({ fieldRegister, ...props }: InputControlProps) {
+  return <input {...props} {...fieldRegister} />;
 }

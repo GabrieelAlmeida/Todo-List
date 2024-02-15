@@ -1,16 +1,20 @@
-import { Logo } from "@atoms/Logo";
-import { Form } from "@molecules/Form";
 import logo from "@assets/Logo.svg";
-import { ComponentProps } from "react";
+import { Logo } from "@atoms/Logo";
+import { ComponentProps, memo } from "react";
 
 type HeaderProps = ComponentProps<"header">;
 
-export function Header(prop: HeaderProps) {
+function HeaderComponent(props: HeaderProps) {
   return (
-    <header className="h-[12.5rem] bg-gray-700">
-      <Logo src={logo} alt="" />
-
-      <Form />
-    </header>
+    <>
+      <header
+        className="flex h-[12.5rem] flex-col items-center justify-center bg-gray-700"
+        {...props}
+      >
+        <Logo src={logo} alt="" />
+      </header>
+    </>
   );
 }
+
+export const Header = memo(HeaderComponent);
