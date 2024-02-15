@@ -19,5 +19,7 @@ Conceitos aplicados como:
 - Atomic Design
 - Tailwind CSS
 - React Hook Form
+  
 
-<img width="497" alt="image" src="https://github.com/GabrieelAlmeida/React-Native-Todo-List-/assets/41603912/25ee40f5-a091-4def-967d-0978271c86bf">
+<img width="419" alt="image" src="https://github.com/GabrieelAlmeida/Todo-List/assets/41603912/98559e9a-aeae-4553-85f4-07959ecb0805">
+
