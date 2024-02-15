@@ -21,5 +21,7 @@ Conceitos aplicados como:
 - React Hook Form
   
 
-<img width="419" alt="image" src="https://github.com/GabrieelAlmeida/Todo-List/assets/41603912/98559e9a-aeae-4553-85f4-07959ecb0805">
+
+<img width="581" alt="image" src="https://github.com/GabrieelAlmeida/Todo-List/assets/41603912/9f31758a-6e54-424b-a149-bd4f4c58b983">
+
 
